@@ -85,6 +85,14 @@
             });
         },
 
+/**
+ * take an existing image ref $('#imageRef')[0] and sets  the src to the
+ * rendered data from the svg via the canvas
+ * 
+ * 
+ * @param {type} imageRef
+ * @returns {undefined}
+ */
         toUsableImg: function (imageRef)
         {
             this.toCanvas(function (canvas) {
