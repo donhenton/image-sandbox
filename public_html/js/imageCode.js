@@ -51,6 +51,8 @@ $(document).ready(
             var newImage = importSVG(svgContent, $('#myCanvas')[0]);
             
             $("#displayImage").attr('src', newImage.src);
+            console.log("width "+newImage.width+","+newImage.height)
+            // $("#displayImage").attr('width', '500px');
            //  console.log($("#displayImage").attr('src'));
 
 

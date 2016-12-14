@@ -14,12 +14,12 @@ and open the template in the editor.
 /*    position: relative;*/
 }
 .imageClass{
-/*    position: absolute;
-    top: 0;
-   // transform: scale(.33);
-    */
-    width: 50%
+ border: thin solid red;
 }
+ #svg-container
+ {
+     border: thin solid red;
+ }
 #myCanvas
 {
 /*    //width: 517px;
