@@ -1,4 +1,6 @@
 /*jshint nonstandard:true */
+
+//https://github.com/krunkosaurus/simg
 (function (root) {
     var previousSimg = root.Simg;
     var Simg = root.Simg = function (svg) {
