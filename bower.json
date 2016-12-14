@@ -8,7 +8,8 @@
   ],
   "dependencies": {
     "jQuery": "2.2.1",
-    "jquery-ui": "1.12.1"
+    "jquery-ui": "1.12.1",
+    "Simg": "simg#^1.1.3"
   },
   "devDependencies": {}
 }
