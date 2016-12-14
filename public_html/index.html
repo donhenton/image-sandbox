@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Image System</title>
+        <meta charset="UTF-8">
+        <link href="css/jsapp/main_app_style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/jsapp/jquery-ui-theme.css" rel="stylesheet" type="text/css"/>
+        <link href="css/app.css" rel="stylesheet" type="text/css"/>
+        <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+        <script src="bower_components/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="js/imageCode.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+
+        <section id="pageContainer">
+            <header>
+                <figure class="logo">Image Demos</figure>
+                <nav class="topMenu grouping">
+
+                    <!--
+                    <ul>
+                        <li><a href="/mainDemo">Main Demo</a></li>
+                        <li>
+
+                            <aside>File API</aside>
+                            <ul>
+                                <li><a href="/fileList">Listing</a></li>
+                                <li><a href="/fileUploadPage">Upload</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="/logout">Logout</a></li>
+                        <li><a href="/">Home</a></li>
+                    </ul>    
+                    -->
+
+                </nav>
+            </header>
+
+            <section id="main" class="grouping">
+                <h2>Image Demos</h2>
+                <p>&nbsp;</p>
+                <div class="mainPageContainer">
+                    <div class="row">
+                        <div class="column50Left">
+                            <h3>Svg</h3>
+                            <div id="svg-container">
+                                <svg id="my-svg" pointer-events="none" width="500px" height="250px">
+                                <g id="bubbleChart">
+                                <g class="bubbleElement" transform="translate(200,125)">
+                                <circle pointer-events="all" class="bubbleCircle bubbleEvents" fill="rgb(14, 191, 233)" stroke-width="2" stroke="#0985a3" stroke-opacity="1" id="bubble_724" style="" r="100" opacity="1"></circle>
+
+                                <text pointer-events="none" text-anchor="middle" dy="-0.5em" class="bubbleText" style="font-family : 'DINMittelEF-Bold', Georgia, serif; font-weight : bold; font-size : 18px; fill : #000" opacity="1">Don't Get a Job,</text>
+                                <text pointer-events="none" text-anchor="middle" dy="1em" class="bubbleText" style="font-family : 'DINMittelEF-Bold', Georgia, serif; font-weight : bold; font-size : 18px; fill : #000" opacity="1">Hang out at Bob's!!</text>
+                                </g>
+                                </g>
+                                </svg>
+                            </div>
+
+
+                        </div>
+                        <div class="column50Right imageContainer grouping"><h3>Image</h3>
+                            <img id="displayImage"  class="imageClass" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <h4>Canvas</h4>
+                    <canvas width="500px" height="250px" id="myCanvas"></canvas>
+                </div>
+            </section>
+
+        </section>
+
+
+
+
+    </body>
+</html>
+</body>
+</html>
