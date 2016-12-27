@@ -47,7 +47,10 @@ and open the template in the editor.
 
             <section id="main" class="grouping">
                 <h2>Image Demos</h2>
-                <p>&nbsp;</p>
+                
+                <div class="well">Code demonstrates downloading the svg image and taking a screenshot, in this case sending that image
+                    to another div</div>
+                 
                 <div class="mainPageContainer">
                     <div class="row">
                         <div class="column50Left grouping">
@@ -58,8 +61,11 @@ and open the template in the editor.
                                 </tr>
                                 <tr>
                                     <td>
-                                        <button onClick="doScreenShot()" id="takeScreenShot" class="spacer pull-right btn btn-primary">Screenshot</button>
-                                        <button id="updateHorizontalData" class="spacer pull-left btn btn-primary">Update Data</button></td>
+                                        <button onClick="doScreenShot()" id="takeScreenShot" class="pull-right btn btn-primary">Screenshot</button>
+                                       
+                                        <button id="updateHorizontalData" class="btn btn-primary">Update Data</button>
+                                     <button id="downloadButton" onClick="doDownload()" class="space-left   btn btn-primary">Download Image</button> 
+                                    </td>
                                 </tr>
                             </table>
 

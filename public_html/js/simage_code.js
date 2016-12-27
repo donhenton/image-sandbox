@@ -19,3 +19,10 @@ function doScreenShot()
     imageObj.toUsableImg(imageRef);
     
 }
+
+function doDownload()
+{
+    
+    imageObj.download("graphDownload");
+    
+}
