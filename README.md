@@ -1,8 +1,9 @@
 # Image Sandbox
 
-Playing around with images of d3 graphs, and mailing them as attachments. 
-This code is currently incorporated into my node app at http://donhenton-node.herokuapp.com/
-under Apps --> Mailer Demonstrations
+Playing around with images of d3 graphs, downloading and testing svg --> image
+Part of this code is currently incorporated into my node app at http://donhenton-node.herokuapp.com/
+under Apps --> Mailer Demonstrations. This code provides the svg --> image data, 
+which was then mailed as an attachement.
 
 ## Index Page
 Demonstrates the various parts of the image being pulled from svg --> Canvas --> Image
